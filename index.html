@@ -1,45 +1,98 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Home Page</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
       <link rel="stylesheet" href="style.css">
-      
+    
    </head>
-   <body>
-   <div class="header">
-    <div class="nav">
-   <ul>
-      <li> Home </li>
-      <li> Beats </li>
-      <li> Licensing </li>
-      <li> Contact Us </li>
-      <div class="form">
-      <li><nav class="navbar bg-body-tertiary">
+       <body>
+        
+    <div class="header"> 
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
   <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav> </li>
-      </div>
-   </ul>
+    <a class="navbar-brand" href="index.html">5STAR</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="beats.html">Beats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="licensing.html">Licensing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+        </li>    
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                <li class="nav-login">
+        <ul>  <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+        </ul>
+        </li>  
+      </form>
     </div>
-     <div class="image">
-        <img src="images/image3.jpg" class="img-fluid" alt="beat image" style="height: 363px; width: 1293px;">
-    </div>
-   </div>
-   <div class="heading">
-   <h1> BUY 1 GET 1 FREE</h1>
-     <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search for Beats" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
   </div>
 </nav>
-   </div>
-   </body>
+</div>
+</header> 
+    <main class="container my-5"> 
+
+    <div class="row"> 
+
+        <div class="col-md-8"> 
+
+<div class="card" style="width: 18rem;">
+  <img src="images/image1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Featured Track</h5>
+    <p class="card-text">Beat made by ipm.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">155bpm</li>
+    <li class="list-group-item">C# Minor</li>
+    <li> <audio src="bb8.mp3" controls> </audio> </li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.beatstars.com/beat/brotherkupa-x-jaykatana-type-beat-swagged-out-21856170" class="card-link">Buy now</a>
+    <a href="licensing.html" class="card-link">Read License</a>
+  </div>
+</div>
+
+        </div> 
+
+        <div class="col-md-4"> 
+
+            <div class="card"> 
+
+                <div class="card-body"> 
+
+                    <h5 class="card-title">Did You Know?</h5> 
+
+                    <p class="card-text">If you buy 1 of our beats you get another one free.</p> 
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+    
+
+</main> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+    </body>
 </html>
