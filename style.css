@@ -6,6 +6,7 @@
 ul {
     list-style: none;
     }
+
 .navbar-brand {
                 font-weight: bold;               
 }
@@ -15,17 +16,13 @@ ul {
                     color: gray;
 }
 
-nav :hover {
-            color: aqua;
-
-}
 
   
 body { 
 
     font-family: Arial, sans-serif;
-    color: black;
-    background: linear-gradient(to right, #0a1f44, #1c3b70);
+    color: white;
+    background:  #0a0a0a;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Set height to full viewport height */
@@ -34,6 +31,11 @@ body {
 h2 {
      font-weight: bold;
     }
+
+form {
+        color: black;
+}
+
 
 main {
       flex: 1; /* This pushes the footer down by filling all available space */
@@ -47,12 +49,14 @@ main {
             padding: 15px;
             width: 100%;
             margin-bottom: 20px;
+            
            }
 
 .card-img-top {
                 height: 200px;       /* force same height */
                 object-fit: cover;   /* crops card nicely instead of stretching */
               }
+
 
 .card-body:hover {
             transform: scale(1.03);
@@ -73,6 +77,8 @@ main {
 
 audio {
        width: 250px;
+        filter: invert(1) hue-rotate(180deg); /* changes color of audio files */
+  
       }
 
 .card-container{
@@ -92,8 +98,8 @@ audio {
               }
 
 .footer {
-         background-color: gray;
-         color: black;
+         background-color: black;
+         color: white;
          text-align: center;
          padding: 10px;
         
@@ -116,4 +122,10 @@ audio {
 .card-body h4 {
                 font-weight: bold;
             }
-        
+
+.table img {
+            width:50px;
+            height:50px;
+            object-fit: cover       ;
+}
+
