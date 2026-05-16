@@ -49,17 +49,19 @@
         
             <main class="container my-5"> 
                 <h2> CONTACT US </h2>
+                <form action="index.html">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Send Us A Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write a short text here." rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write a short text here." rows="3" required></textarea>
                     <div class="submit-button">
-                        <a class="btn btn-primary" href="index.html" role="button">Submit</a>
+                        <button class="btn btn-primary" type="submit">Submit</button>
                     </div>
                 </div>
+                </form>
 
             
 
