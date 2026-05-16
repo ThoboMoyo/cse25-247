@@ -19,3 +19,17 @@ console.log("JavaScript is connected!");
       }, false)
     })
 })()
+const form = document.getElementById("paymentForm");
+
+if (form) {
+  form.addEventListener("submit", function(e) {
+    e.preventDefault(); // stop refresh
+
+    document.getElementById("successPopup").style.display = "flex";
+  });
+}
+
+function goHome() {
+  window.location.href = "index.html";
+}
+
